@@ -15,6 +15,7 @@ THE_EMAIL="your email"
 THE_PASSWORD="your password"
 ```
 
+Dont forget that you must do the same when you want to deploy it.
 If you are intrested in more details look at this article.
 https://dev.to/itnext/setting-up-a-site-mailer-with-node-mailer-express-and-gmail-2ok6
 
