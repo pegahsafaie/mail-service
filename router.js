@@ -4,6 +4,7 @@ const nodemailer = require('nodemailer')
 require('dotenv').config()
 console.log('##############################')
 console.log(process.env.THE_EMAIL);
+console.log(process.env.THE_PASSWORD);
 console.log('##############################')
 const transport = {
   //all of the configuration for making a site send an email.
