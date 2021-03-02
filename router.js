@@ -26,6 +26,7 @@ const transporter = nodemailer.createTransport(transport);
   });
 
 router.post('/sendEmail', (req,res, next) => {
+  console.log(req.body);
   const mail = {
     from: process.env.THE_EMAIL,
     to: process.env.THE_EMAIL,
@@ -43,6 +44,7 @@ router.post('/sendEmail', (req,res, next) => {
 
   transporter.sendMail(mail, (err,data) => {
     if(err) {
+      console.log(err);
       res.json({
         status: 'fail'
       })
