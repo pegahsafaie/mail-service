@@ -21,3 +21,11 @@ https://dev.to/itnext/setting-up-a-site-mailer-with-node-mailer-express-and-gmai
 
 ## To run locally 
 nodemon server
+
+
+## Deploy to vercel(a host which supports both nodejs and https)
+https://dev.to/andrewbaisden/how-to-deploy-a-node-express-app-to-vercel-2aa
+
+## Debug
+sometimes when you deploy it on a new host, it shows you invalid login. in this case look at this post
+https://stackoverflow.com/questions/26948516/nodemailer-invalid-login
